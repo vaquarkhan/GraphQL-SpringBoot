@@ -37,6 +37,11 @@ You have created parent service which fetching all records based on conditions a
 
 Now because of some bug fix you need to change the schema  or data type of some service, it will be synced, other services that relies in the old format will break. You can minimize this problem by writing a giant integration test that runs after changes on each component, but a change in one service should not impact other service (Anti pattern in microservice ).
 
+                                                    ### or 
+
+Create 3 diffrent microservice with almost same query that returns the  three similar account list then filter and use it.
+
+
 
 #### Scenario 2: 
 

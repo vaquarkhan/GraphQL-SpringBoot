@@ -9,7 +9,7 @@ GraphQL is a query language for APIs and a runtime for fulfilling those queries 
 ------------------------------------------------------
 
 * https://www.robinwieruch.de/getting-started-github-graphql-api/
-*https://graphql.org/learn/
+* https://graphql.org/learn/
 
 ------------------------------------------------------
 
@@ -21,8 +21,6 @@ GraphQL is a query language for APIs and a runtime for fulfilling those queries 
 * https://dev.to/sadarshannaiynar/graphql-or-rest-what-should-i-use-38mj
 * https://jaxenter.com/graphql-good-no-alternative-rest-services-142814.html
 * https://www.quora.com/Is-GraphQL-a-REST-killer
-
-### Proc and cons
 
 ### POC
 
@@ -37,7 +35,7 @@ You have created parent service which fetching all records based on conditions a
 
 Now because of some bug fix you need to change the schema  or data type of some service, it will be synced, other services that relies in the old format will break. You can minimize this problem by writing a giant integration test that runs after changes on each component, but a change in one service should not impact other service (Anti pattern in microservice ).
 
-                                                    ### or 
+                                                    or 
 
 Create 3 diffrent microservice with almost same query that returns the  three similar account list then filter and use it.
 

@@ -1,5 +1,3 @@
-# GraphQL
-
 ![Alt Text](https://montykamath.files.wordpress.com/2018/02/graphql.png?w=300&h=300)
 
 

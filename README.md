@@ -23,6 +23,12 @@ GraphQL is a query language for APIs and a runtime for fulfilling those queries 
 * https://jaxenter.com/graphql-good-no-alternative-rest-services-142814.html
 * https://www.quora.com/Is-GraphQL-a-REST-killer
 * https://github.com/luisw19/graphql-samples
+* https://github.com/ameizi/graphql-example
+* https://github.com/gregwhitaker/springboot-graphql-example
+* https://github.com/npalm/graphql-java-demo
+* https://github.com/vladimir-dejanovic/graphql-spring-boot-example
+
+
 
 ### POC
 

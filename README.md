@@ -42,7 +42,7 @@ A possible solution is to provide less information when someone calls /api/artic
 * https://github.com/npalm/graphql-java-demo
 * https://github.com/vladimir-dejanovic/graphql-spring-boot-example
 * https://github.com/vaquarkhan/microservices-with-graphq-springboot
-
+* https://nordicapis.com/7-unique-benefits-of-using-graphql-in-microservices/
 
 ### POC
 

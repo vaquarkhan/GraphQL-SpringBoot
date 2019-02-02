@@ -24,6 +24,11 @@ The issue is that, when you’re retrieving the articles to show a list of artic
 
 A possible solution is to provide less information when someone calls /api/article compared to when someone is calling /api/article/123. This might solve the issue, but what if you want to write your application for both mobile devices and web browsers? Your mobile application might need even less data, so you could still be overfetching. A possible solution to this problem is to have multiple endpoints, for example /api/article/mobile and /api/article/desktop. This however, leads to a much higher coupling between the view and the REST APIs.
 
+### Graphql Benefits
+One of the main benefits of having everything behind a single endpoint is that data can be routed more effectively than if each request had its own service. While this is the often touted value of GraphQL, a reduction in complexity and service creep, the resultant data structure also allows data ownership to be extremely well defined, and clearly delineated.
+
+Another benefit of adopting GraphQL is the fact that you can fundamentally assert greater control over the data loading process. Because the process for data loaders goes into its own endpoint, you can either honor the request partially, fully, or with caveats, and thereby control in an extremely granular way how data is transferred.
+
 - from g00glen00b
 
 -----------------------------------------------------------
@@ -43,6 +48,25 @@ A possible solution is to provide less information when someone calls /api/artic
 * https://github.com/vladimir-dejanovic/graphql-spring-boot-example
 * https://github.com/vaquarkhan/microservices-with-graphq-springboot
 * https://nordicapis.com/7-unique-benefits-of-using-graphql-in-microservices/
+* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### POC
 
